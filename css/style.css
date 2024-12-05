@@ -1,0 +1,297 @@
+/*#0B9586 Inter, sans-serif #FFBB1C  #3CAB90*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{font-family:Inter, sans-serif;}
+.header,.h_button,.m_button_one{ background-color: #0B9586;}
+nav ul li a,.h_content ,.h_button, .h_button a ,.section_one,.m_button_one a,
+.m_button_sec a,.call_us a,.element article a,.item a{
+    text-decoration: none;
+}
+nav ul li a,.h_content ,.h_button, .h_button a ,.section_one,.m_button_one a,
+.m_child_one span,.thr_section div,.five_parent,.pages_end{
+     color: aliceblue;
+}
+.h_content ,.main_parent,.sec_section,.thr_section div,.midel_content{ margin: 0px 10% 0px 10%;}
+.h_content,.sec_section{
+ position: relative;
+ overflow: auto;
+}
+.logo{
+  width: 157px;
+  height:54px;
+  opacity: 0.2;
+  margin: 5px 20px 5px 20px;
+}
+
+nav ul li a{ margin:0px 20px 0px 20px ;}
+nav ul li,nav ul ,footer ul {display: inline-block;}
+.h_button ,.h_content nav,.logo,.sec_parent{ float: left;}
+.h_button ,.h_content nav{
+    margin:15px 70px 10px 70px ;
+}
+.h_button ,.h_span,.m_button_one,.m_child_one span,.thr_section div{font-weight: bold;}
+.h_button{
+ width: 120px;
+ height: 40px;
+ margin-left: 60px;
+ box-shadow:0 2px 3px 1px rgba(0, 0, 0, 0.527) ;
+}
+.m_button_one ,.h_button{ border:1px solid #0B9586;}
+.h_span{
+    margin:15px 20px 10px 20px ;
+    float: right;
+}
+.section_one{
+    width: 100%;
+    height: 650px;
+    background-image: url("../images/solar-panels-meadow 1.png");
+}
+.section_one,aside,.thr_section,.five{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.m_button_sec a,.call_us a{color: black;}
+.m_button_sec,aside div,.call_us{background-color:#FFBB1C ;}
+.m_child_one span,.m_button_sec,.m_button_one,.h_button{font-size: large;}
+.m_button_sec,.m_button_one,.call_us{
+ width: 173px;
+ height: 41px;
+ border-radius: 109px; 
+ margin: 0px 10px 0px 10px;
+} 
+.main_parent div{padding: 5% 0px 3% 0px;}
+.m_child_one span{
+    margin: 0px 20px 0px 20px;
+}
+.m_child_one progress{
+    width: 250px;
+    height: 5px; 
+    -webkit-appearance: none; 
+    appearance: none;
+}
+.m_child_one progress::-webkit-progress-bar {
+    background-color: rgba(0, 0, 0, 0.534); 
+    overflow: hidden; 
+    border-radius: 10px;
+}
+progress::-webkit-progress-value {
+    background-color: white;
+    border-radius: 10px; 
+}
+progress::-moz-progress-bar {
+    background-color: white; 
+}
+.m_child_two article ,.call_us ,.four{
+    margin:20px 0px 10px 0px;
+}
+.m_child_two article h2 ,.sec_parent article h2,.thr_section div article h2 
+,.midel_content article h2,.five_parent article h2 , .section_info article h2 ,.eight_info h3{
+ font-size: 38px;   
+ font-weight: bold;
+ margin: 20px 0px 40px 0px;
+}
+.m_child_two article p{
+ font-size: 24px; 
+ margin: 10px 0px 40px 0px;
+}
+.sec_parent,aside{margin-top:50px;}
+aside{
+    position: relative;
+    border-radius: 20px;
+    height: 500px;
+    width: 40%;
+    float:right;
+    background-image: url("../images/Rectangle\ 30.png");
+}
+.numper{
+    font-size: 20px;
+    color:#84BD3A ;
+}
+.sec_p_article p,.thr_section div article p{ font-weight: bold;}
+.sec_p_article p,.thr_section div article p,.five_parent article p  ,.eight_info p {
+  margin:15px 0px 15px 0px ;
+}
+aside div{
+    position: absolute;
+    width:45%;
+    border-radius:10px ;
+    padding:10px 20px 10px 20px;
+    top:60%; 
+    right:63%;
+}
+aside div p ,.element article p ,.element article h2 ,.section_info article p{
+    margin:10px 0px 10px 0px;
+}
+.thr_section{
+    margin: 40px  0px 20px 0px;
+    background-image: url("../images/8116\ 1.png");
+    height: 500px;
+}
+.thr_section div{
+    padding: 10% 0px 10% 0px;
+}
+.midel_content{
+    text-align: center;
+}
+.grid_parent{
+    margin:5% 10% 5% 10%;
+    display:grid;
+    grid-template-columns:repeat(3,1fr); 
+    grid-column-gap:10px;
+}
+
+.element article a,.item a{ color: #3CAB90;}
+.five{
+    position: relative;
+    height: 505px;
+    background-image: url("../images/8116\ 1\ \(1\).png");
+}
+.five_parent{
+ position:absolute;
+ margin: 8% 20% 0px 20%;
+ text-align: center;
+ width: 60%;
+ border-radius: 10px;
+ background-color: rgba(0, 0, 0, 0.667);
+}
+.five_parent article p{    padding: 0% 2%  4% 2%;}
+.five_parent article p,.section_info article p{
+    line-height: 28px;
+}
+.ele{
+    border-radius: 15px;
+    padding:50px 20px 50px 20px;
+    border:1px solid   rgba(60,171,144,1);
+    background-color: rgba(60,171,144,0.05);
+}
+.section_s{
+    background-color: rgba(255,187,28,0.05);
+}
+.section_s{
+    padding:4% 10% 4% 10% ;
+    overflow: auto;
+}
+.section_info{
+    width: 30%;
+    float:left;
+}
+.section_items{
+    width: 70%;
+    float: right;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows:repeat(2,220px); 
+    grid-column-gap:10px;
+    grid-row-gap:75px;
+}
+.section_info> div{
+    width: 65px;
+    position: relative;
+    height: 65px;
+    background-color: rgba(60,171,144,0.2);
+    border-radius:10px ;
+}
+.image_back{
+    position:absolute;
+    top:8px;
+    left: 8px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: #0B9586;
+    border-radius: 10px;
+    z-index: 100;
+}
+.image_back img{
+    padding:20% 0px 50% 0px ;
+}
+.item{
+    padding: 5% 5% 5% 5%;
+    height: max-content;
+    border: 1px solid rgba(60,171,144,1);
+    border-radius:10px ;
+}
+.item article h2{
+    font-size: 24px;
+    margin: 10px 0px 10px 0px ;
+}
+.item article a{
+    margin: 15px 0px 15px 0px ;
+}
+.eight_parent{
+    margin: 3% 10% 3% 10%;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-column-gap:10px;
+}
+.colon{
+    font-size:90px;
+    font-weight: bold;
+    color: #0B9586;
+}
+.eight_data{
+    background-color:rgba(60,171,144,0.05);
+}
+.line_one{    overflow: auto;}
+.line_one,.study_cont,.img_of_person{
+    margin:5% 3% 5% 3%;
+}
+.dots{
+   float :right;
+}
+.wh{
+    font-weight: bold;
+    color:#0B9586;
+}
+.fa-circle{
+    font-size:10px ;
+    margin: 0px 3px 0px 3px;
+    color: rgba(128, 128, 128, 0.256);
+}
+.circle1{
+    color: black;
+}
+.study_cont{
+    font-size: 25px;
+}
+.img_of_person{
+    overflow: auto;
+}
+.img_of_person img ,.img_of_person span{
+    float:left;
+    margin:0px 7px 0px 7px ;
+}
+.img_of_person a{
+    float: right;
+    margin: 0px 10px 0px 10px;
+    color:rgba(60,171,144,1)  ;
+    font-size: 27px;
+}
+footer{
+ background-color: rgba(40, 54, 70, 1);
+}
+.pages_end{
+    margin:20px 10% 0px 10% ;
+} 
+footer ul li a {  color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 23px;
+}
+.foot_cont{
+    padding: 3% 0px 3% 0px;
+}
+footer ul li {
+    display: inline-block;
+    margin:0px 20px 0px 20px ;
+}
+.final{
+    padding:30px 0px 0px 70px ;
+}
+.second_span{
+ float: right;
+}
